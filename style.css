@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color:white;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 10px 0;
+}
+
+    h1{
+        padding:15px;
+        text-align: center;
+    }
+main{
+    background-color: white;
+}
+
+
+.contenedorFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px white solid;
+    padding-bottom:20px;
+    transition:all 0.5s;
+}
+.contenedorFooter p{
+    padding:5px;
+}
+.contenedorWhatsapp{
+    display:flex;
+    padding-top: 20px;
+    
+}
+.contenedorWhatsapp i{
+    font-size: 2em;   
+    padding-right: 5px;
+}
+.contenedorWhatsapp p{
+    font-size: 1em;
+}
+.contenedorIconos{
+    padding:15px 0;
+}
+
+.contenedorIconos i{
+    font-size: 1.5em;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.contenedorFooter small{
+    padding:15px;
+}
+
+.contenedorFooter i:hover{
+    scale:1.2;
+
+}
